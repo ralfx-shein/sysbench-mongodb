@@ -3,23 +3,23 @@
 export SHARDED=no
 
 # database in which to run the benchmark
-export DB_NAME=sbtest10by1mm
+export DB_NAME=loadtest
 
 # database username on DB_NAME
-export USERNAME=<replace-with-username>
+export USERNAME=loadtest
 
 # database password to use for USERNAME
-export PASSWORD=<replace-with-password>
+export PASSWORD="keloxkeiI8"
 
 # name of the server to connect to
-export MONGO_SERVER="<replace-with-endpoint>"
+export MONGO_SERVER="172.30.2.65"
 
 # port of the server to connect to
 export MONGO_PORT=27017
 
 # read preference (replica set)
-#export MONGO_READ_PREFERENCE=primary
-export MONGO_READ_PREFERENCE=secondaryPreferred
+export MONGO_READ_PREFERENCE=primary
+#export MONGO_READ_PREFERENCE=standalone
 #export MONGO_READ_PREFERENCE=secondary
 
 # use TLS encryption (true/false)
@@ -41,11 +41,11 @@ DOQUERY=yes
 
 # number of collections to create for the benchmark
 #   valid values : integer > 0
-export NUM_COLLECTIONS=10
+export NUM_COLLECTIONS=1000
 
 # number of documents to maintain per collection
-#   valid values : integer > 0
-export NUM_DOCUMENTS_PER_COLLECTION=1000000
+#   valid values : integer > 0 
+export NUM_DOCUMENTS_PER_COLLECTION=10000000
 
 # total number of documents to insert per "batch"
 #   valid values : integer > 0
@@ -53,11 +53,11 @@ export NUM_DOCUMENTS_PER_INSERT=1000
 
 # total number of simultaneous insertion threads (for loader)
 #   valid values : integer > 0
-export NUM_LOADER_THREADS=10
+export NUM_LOADER_THREADS=10000
 
 # total number of simultaneous benchmark threads
 #   valid values : integer > 0
-export NUM_WRITER_THREADS=32
+export NUM_WRITER_THREADS=64
 
 # run the benchmark for this many minutes
 #   valid values : intever > 0
@@ -66,7 +66,7 @@ export RUN_TIME_SECONDS=$[RUN_TIME_MINUTES*60]
 
 # total number of transactions per second, allows for the benchmark to be rate limited
 #   valid values : integer > 0
-export MAX_TPS=999999
+export MAX_TPS=9999999
 
 
 # ------------------------------------------------------------------------------------
