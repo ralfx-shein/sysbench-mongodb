@@ -181,8 +181,9 @@ public class jmongosysbenchexecute {
         }
 		*/
 
-        //String template = "mongodb://%s:%s@%s:%s/admin?ssl=%s&replicaSet=rs0&readpreference=%s&maxPoolSize=4096";
-        String template = "mongodb://%s:%s@%s:%s/admin?ssl=%s&readpreference=%s&maxPoolSize=4096&serverSelectionTimeoutMS=60000&replicaSet=rs0";
+        //String template = "mongodb://%s:%s@%s:%s/admin?ssl=%s&readpreference=%s&maxPoolSize=4096";
+        //String template = "mongodb://%s:%s@%s:%s/admin?ssl=%s&readpreference=%s&maxPoolSize=4096&serverSelectionTimeoutMS=60000";
+        String template = "mongodb://%s:%s@%s:%s/loadtest?ssl=%s&maxPoolSize=4096&serverSelectionTimeoutMS=60000";
         String connectionString = String.format(template, userName, passWord, serverName, serverPort, useSSL, readPreference);
         //logMe("  connection string = %s",connectionString);
 
