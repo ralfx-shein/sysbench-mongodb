@@ -1,0 +1,100 @@
+executing standard sysbench
+Thread[#1,main,5,main]Application Parameters
+Thread[#1,main,5,main]-------------------------------------------------------------------------------------------------
+Thread[#1,main,5,main]  collections              = 100
+Thread[#1,main,5,main]  database name            = loadtest
+Thread[#1,main,5,main]  writer threads           = 32
+Thread[#1,main,5,main]  documents per collection = 1,000,000
+Thread[#1,main,5,main]  feedback seconds         = 10
+Thread[#1,main,5,main]  log file                 = mongoSysbenchExecute-100-1000000-32.txt.tsv
+Thread[#1,main,5,main]  auto commit              = Y
+Thread[#1,main,5,main]  run seconds              = 600
+Thread[#1,main,5,main]  oltp range size          = 100
+Thread[#1,main,5,main]  oltp point selects       = 10
+Thread[#1,main,5,main]  oltp simple ranges       = 1
+Thread[#1,main,5,main]  oltp sum ranges          = 1
+Thread[#1,main,5,main]  oltp order ranges        = 1
+Thread[#1,main,5,main]  oltp distinct ranges     = 1
+Thread[#1,main,5,main]  oltp index updates       = 1
+Thread[#1,main,5,main]  oltp non index updates   = 1
+Thread[#1,main,5,main]  oltp inserts             = 1
+Thread[#1,main,5,main]  write concern            = ACKNOWLEDGED
+Thread[#1,main,5,main]  maximum tps (global)     = 999999
+Thread[#1,main,5,main]  maximum tps (per thread) = 31250
+Thread[#1,main,5,main]  Server:Port = 172.30.2.65:27017
+Thread[#1,main,5,main]  seed                     = 1690258096
+Thread[#1,main,5,main]  userName                 = loadtest
+Thread[#1,main,5,main]  read preference          = primary
+Thread[#1,main,5,main]  use SSL                  = false
+Thread[#1,main,5,main]  index technology         = mongo
+Thread[#1,main,5,main]-------------------------------------------------------------------------------------------------
+Thread[#16,Thread-0,5,main]Writer thread 0 : started
+Thread[#17,Thread-1,5,main]Writer thread 1 : started
+Thread[#18,Thread-2,5,main]Writer thread 2 : started
+Thread[#19,Thread-3,5,main]Writer thread 3 : started
+Thread[#20,Thread-4,5,main]Writer thread 4 : started
+Thread[#21,Thread-5,5,main]Writer thread 5 : started
+Thread[#22,Thread-6,5,main]Writer thread 6 : started
+Thread[#23,Thread-7,5,main]Writer thread 7 : started
+Thread[#24,Thread-8,5,main]Writer thread 8 : started
+Thread[#25,Thread-9,5,main]Writer thread 9 : started
+Thread[#26,Thread-10,5,main]Writer thread 10 : started
+Thread[#27,Thread-11,5,main]Writer thread 11 : started
+Thread[#28,Thread-12,5,main]Writer thread 12 : started
+Thread[#29,Thread-13,5,main]Writer thread 13 : started
+Thread[#30,Thread-14,5,main]Writer thread 14 : started
+Thread[#31,Thread-15,5,main]Writer thread 15 : started
+Thread[#32,Thread-16,5,main]Writer thread 16 : started
+Thread[#33,Thread-17,5,main]Writer thread 17 : started
+Thread[#34,Thread-18,5,main]Writer thread 18 : started
+Thread[#35,Thread-19,5,main]Writer thread 19 : started
+Thread[#36,Thread-20,5,main]Writer thread 20 : started
+Thread[#37,Thread-21,5,main]Writer thread 21 : started
+Thread[#38,Thread-22,5,main]Writer thread 22 : started
+Thread[#39,Thread-23,5,main]Writer thread 23 : started
+Thread[#40,Thread-24,5,main]Writer thread 24 : started
+Thread[#41,Thread-25,5,main]Writer thread 25 : started
+Thread[#42,Thread-26,5,main]Writer thread 26 : started
+Thread[#43,Thread-27,5,main]Writer thread 27 : started
+Thread[#44,Thread-28,5,main]Writer thread 28 : started
+Thread[#45,Thread-29,5,main]Writer thread 29 : started
+Thread[#46,Thread-30,5,main]Writer thread 30 : started
+Thread[#47,Thread-31,5,main]Writer thread 31 : started
+Thread[#48,Thread-32,5,main]10 seconds : cum tps=3.20 : int tps=3.20 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]20 seconds : cum tps=7.00 : int tps=10.80 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]30 seconds : cum tps=8.83 : int tps=12.50 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]40 seconds : cum tps=10.35 : int tps=14.90 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]50 seconds : cum tps=12.06 : int tps=18.90 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]60 seconds : cum tps=14.20 : int tps=24.90 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]70 seconds : cum tps=16.07 : int tps=27.29 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]80 seconds : cum tps=17.55 : int tps=27.84 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]90 seconds : cum tps=18.84 : int tps=29.28 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]100 seconds : cum tps=19.89 : int tps=29.31 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]110 seconds : cum tps=20.74 : int tps=29.19 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]120 seconds : cum tps=21.55 : int tps=30.51 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]130 seconds : cum tps=22.23 : int tps=30.40 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]140 seconds : cum tps=22.96 : int tps=32.28 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]150 seconds : cum tps=23.40 : int tps=29.70 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]160 seconds : cum tps=23.90 : int tps=31.30 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]170 seconds : cum tps=24.36 : int tps=31.90 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]180 seconds : cum tps=24.75 : int tps=31.21 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]190 seconds : cum tps=25.13 : int tps=32.10 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]200 seconds : cum tps=25.44 : int tps=31.41 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]210 seconds : cum tps=25.77 : int tps=32.29 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]220 seconds : cum tps=26.04 : int tps=31.70 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]230 seconds : cum tps=26.29 : int tps=31.70 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]240 seconds : cum tps=26.57 : int tps=33.23 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]250 seconds : cum tps=26.93 : int tps=35.38 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]260 seconds : cum tps=27.33 : int tps=37.51 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]270 seconds : cum tps=27.73 : int tps=37.93 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]280 seconds : cum tps=28.18 : int tps=40.40 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]290 seconds : cum tps=28.60 : int tps=40.39 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]300 seconds : cum tps=29.03 : int tps=41.50 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]310 seconds : cum tps=29.42 : int tps=41.11 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]320 seconds : cum tps=29.78 : int tps=40.99 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]330 seconds : cum tps=30.17 : int tps=42.59 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]340 seconds : cum tps=30.56 : int tps=43.30 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]350 seconds : cum tps=30.92 : int tps=43.41 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+Thread[#48,Thread-32,5,main]360 seconds : cum tps=31.27 : int tps=43.40 : cum ips=0.00 : int ips=0.00 : cum excp=0 : int excpt=0 : writers=32
+
+Tue Jul 25 04:16:37 UTC 2023 | sysbench benchmark duration = 00:00:06:13

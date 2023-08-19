@@ -1,0 +1,30 @@
+executing standard sysbench
+Thread[#1,main,5,main]Application Parameters
+Thread[#1,main,5,main]-------------------------------------------------------------------------------------------------
+Thread[#1,main,5,main]  collections              = 10
+Thread[#1,main,5,main]  database name            = loadtest
+Thread[#1,main,5,main]  writer threads           = 32
+Thread[#1,main,5,main]  documents per collection = 1,000,000
+Thread[#1,main,5,main]  feedback seconds         = 10
+Thread[#1,main,5,main]  log file                 = mongoSysbenchExecute-10-1000000-32.txt.tsv
+Thread[#1,main,5,main]  auto commit              = Y
+Thread[#1,main,5,main]  run seconds              = 600
+Thread[#1,main,5,main]  oltp range size          = 100
+Thread[#1,main,5,main]  oltp point selects       = 10
+Thread[#1,main,5,main]  oltp simple ranges       = 1
+Thread[#1,main,5,main]  oltp sum ranges          = 1
+Thread[#1,main,5,main]  oltp order ranges        = 1
+Thread[#1,main,5,main]  oltp distinct ranges     = 1
+Thread[#1,main,5,main]  oltp index updates       = 1
+Thread[#1,main,5,main]  oltp non index updates   = 1
+Thread[#1,main,5,main]  oltp inserts             = 1
+Thread[#1,main,5,main]  write concern            = ACKNOWLEDGED
+Thread[#1,main,5,main]  maximum tps (global)     = 999999
+Thread[#1,main,5,main]  maximum tps (per thread) = 31250
+Thread[#1,main,5,main]  Server:Port = 172.30.2.65:27017
+Thread[#1,main,5,main]  seed                     = 1689880437
+Thread[#1,main,5,main]  userName                 = loadtest
+Thread[#1,main,5,main]  read preference          = secondaryPreferred
+Thread[#1,main,5,main]  use SSL                  = false
+
+Thu Jul 20 19:17:14 UTC 2023 | sysbench benchmark duration = 00:00:01:08

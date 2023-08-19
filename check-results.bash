@@ -1,3 +1,3 @@
 #! /bin/bash
 
-grep '280' log/*.txt.tsv | cut -f2
+grep '280' *.txt.tsv | cut -f2

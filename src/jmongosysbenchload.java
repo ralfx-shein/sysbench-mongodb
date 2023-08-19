@@ -129,8 +129,8 @@ public class jmongosysbenchload {
 		*/
 
         //String template = "mongodb://%s:%s@%s:%s/admin?ssl=%s&replicaSet=rs0&readpreference=%s";
-	//String template = "mongodb://%s:%s@%s:%s/admin?ssl=%s&readpreference=%s&maxPoolSize=2000";
-	String template = "mongodb://%s:%s@%s:%s/admin?ssl=%s&readpreference=%s&maxPoolSize=2000&replicaSet=rs0&w=3&journal=true";
+	String template = "mongodb://%s:%s@%s:%s/admin?ssl=%s&readpreference=%s&maxPoolSize=2000";
+	//String template = "mongodb://%s:%s@%s:%s/admin?ssl=%s&readpreference=%s&maxPoolSize=2000&replicaSet=rs0&w=3&journal=true";
         //String readPreference = "secondaryPreferred";
         String readPreference = "primary";
         String connectionString = String.format(template, userName, passWord, serverName, serverPort, useSSL, readPreference);

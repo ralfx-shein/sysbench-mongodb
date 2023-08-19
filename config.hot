@@ -41,11 +41,11 @@ DOQUERY=yes
 
 # number of collections to create for the benchmark
 #   valid values : integer > 0
-export NUM_COLLECTIONS=1000
+export NUM_COLLECTIONS=10000
 
 # number of documents to maintain per collection
 #   valid values : integer > 0 
-export NUM_DOCUMENTS_PER_COLLECTION=10000000
+export NUM_DOCUMENTS_PER_COLLECTION=100000000
 
 # total number of documents to insert per "batch"
 #   valid values : integer > 0
@@ -53,11 +53,11 @@ export NUM_DOCUMENTS_PER_INSERT=1000
 
 # total number of simultaneous insertion threads (for loader)
 #   valid values : integer > 0
-export NUM_LOADER_THREADS=1000
+export NUM_LOADER_THREADS=100000
 
 # total number of simultaneous benchmark threads
 #   valid values : integer > 0
-export NUM_WRITER_THREADS=64
+export NUM_WRITER_THREADS=128
 
 # run the benchmark for this many minutes
 #   valid values : intever > 0
@@ -75,11 +75,11 @@ export MAX_TPS=9999999
 
 # number of documents to retrieve in range queries
 #   valid values : integer > 0
-export SYSBENCH_RANGE_SIZE=100
+export SYSBENCH_RANGE_SIZE=1000
 
 # number of point queries per sysbench "transaction"
 #   valid values : integer >= 0
-export SYSBENCH_POINT_SELECTS=10
+export SYSBENCH_POINT_SELECTS=100
 
 # number of simple range queries per sysbench "transaction"
 #   valid values : integer >= 0
